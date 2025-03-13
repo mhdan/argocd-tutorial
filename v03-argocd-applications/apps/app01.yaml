@@ -1,0 +1,13 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: app-with-helm
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+  project: default
+  source:
+    repoURL: https://github.com/mhdan/argocd-tutorial.git
+    path: v03-argocd-applications/helm/nginx
+    targetRevision: main

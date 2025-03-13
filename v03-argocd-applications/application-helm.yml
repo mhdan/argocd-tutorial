@@ -8,7 +8,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-  # It's possible to override helm values through different ways such as "valueFiles", "values", "valuesObject" and "parameters". 
+  # It's possible to override helm values through different ways such as "valueFiles", "values", "valuesObject" and "parameters".
   # Values injections have the following order of precedence parameters > valuesObject > values > valueFiles > helm repository values.yaml Or rather
           #   helm:
           #      releaseName: application-from-helm
