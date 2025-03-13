@@ -13,3 +13,6 @@ spec:
     targetRevision: main
     helm:
       releaseName: chert
+      parameters:
+        - key: replicaCount
+          value: "3"
