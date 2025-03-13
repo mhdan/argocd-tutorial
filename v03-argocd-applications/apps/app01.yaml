@@ -11,3 +11,5 @@ spec:
     repoURL: https://github.com/mhdan/argocd-tutorial.git
     path: v03-argocd-applications/helm/nginx
     targetRevision: main
+    helm:
+      releaseName: chert
