@@ -12,7 +12,5 @@ spec:
     path: v03-argocd-applications/helm/nginx
     targetRevision: main
     helm:
-      releaseName: chert
-      parameters:
-        - name: replicaCount
-          value: "3"
+      valueFiles:
+        - custom-values.yaml
