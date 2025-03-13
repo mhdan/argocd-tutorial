@@ -14,5 +14,5 @@ spec:
     helm:
       releaseName: chert
       parameters:
-        - key: replicaCount
+        - name: replicaCount
           value: "3"
